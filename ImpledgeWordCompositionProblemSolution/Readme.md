@@ -26,6 +26,24 @@ This C++ program solves the Word Composition Problem by finding the longest and 
 ## Time Complexity
 The average time complexity of this solution can be approximated as O(N * L) in most practical cases, where N is the number of words in the input and L is the average length of the words.
 
+## Execution Flow
+
+   - The code begins by defining a Trie data structure for efficiently storing and managing words. It initializes the root of the Trie.
+
+   - The program reads words from an input file ("Input_02.txt") and inserts them into the Trie data structure using the `insertWord` method. For each word, it traverses the Trie, creating nodes as needed to represent the word.
+
+   - After inserting all the words into the Trie, it sorts the list of words based on their lengths and lexicographic order using the `wordComparator` and the `sort` function.
+
+   - The program starts with an empty `result` vector and iterates through the sorted list of words. It adds each word to the `result` vector and checks if it's a compound word by using the Trie. To determine if a word is a compound word, it recursively checks if the word can be split into smaller words in the Trie.
+
+   - The program identifies and displays the longest and second-longest compound words found during the iteration.
+   - 
+   - The code records the start time and end time of the Trie-based compound word finding process and calculates the elapsed time.
+
+   - Finally, the program prints the longest and second-longest compound words it found, as well as the time taken to process the input file.
+
+
+
 
 
 
