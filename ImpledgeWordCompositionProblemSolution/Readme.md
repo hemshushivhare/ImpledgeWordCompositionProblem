@@ -22,6 +22,9 @@ This C++ program solves the Word Composition Problem by finding the longest and 
 - The `findLongestCompoundWords` function is used to identify the longest and second longest compound words.
 - A Trie data structure is employed to efficiently manage and search for words.
 - The program marks flags for words to track their usability in compound word formation.
+  
+## Time Complexity
+The average time complexity of this solution can be approximated as O(N * L) in most practical cases, where N is the number of words in the input and L is the average length of the words.
 
 
 
