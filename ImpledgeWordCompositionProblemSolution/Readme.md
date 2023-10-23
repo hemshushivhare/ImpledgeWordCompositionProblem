@@ -37,7 +37,7 @@ The average time complexity of this solution can be approximated as O(N * L) in 
    - The program starts with an empty `result` vector and iterates through the sorted list of words. It adds each word to the `result` vector and checks if it's a compound word by using the Trie. To determine if a word is a compound word, it recursively checks if the word can be split into smaller words in the Trie.
 
    - The program identifies and displays the longest and second-longest compound words found during the iteration.
-   - 
+    
    - The code records the start time and end time of the Trie-based compound word finding process and calculates the elapsed time.
 
    - Finally, the program prints the longest and second-longest compound words it found, as well as the time taken to process the input file.
