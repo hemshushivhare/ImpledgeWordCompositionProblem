@@ -17,7 +17,7 @@ This C++ program solves the Word Composition Problem by finding the longest and 
 - The program repeats this process to find the second longest compound word.
 
 ## Implementation
-- The core functionality of the program is encapsulated in a `LongestCompoundWordFinder` class.
+- I have made a class`LongestCompoundWordFinder` which contains all the functions required by the program.
 - Input is read from the specified input file, and the program stores it in a vector.
 - The `findLongestCompoundWords` function is used to identify the longest and second longest compound words.
 - A Trie data structure is employed to efficiently manage and search for words.
