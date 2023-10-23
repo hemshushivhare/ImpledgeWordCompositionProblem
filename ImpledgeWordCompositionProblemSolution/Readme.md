@@ -26,7 +26,7 @@ This C++ program solves the Word Composition Problem by finding the longest and 
 ## Time Complexity
 The average time complexity of this solution can be approximated as O(N * L) in most practical cases, where N is the number of words in the input and L is the average length of the words.
 
-## Execution Flow
+## Code Execution Flow
 
    - The code begins by defining a Trie data structure for efficiently storing and managing words. It initializes the root of the Trie.
 
